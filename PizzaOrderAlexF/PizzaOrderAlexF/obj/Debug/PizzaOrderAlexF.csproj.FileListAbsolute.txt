@@ -1,0 +1,9 @@
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\bin\Debug\PizzaOrderAlexF.exe.config
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\bin\Debug\PizzaOrderAlexF.exe
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\bin\Debug\PizzaOrderAlexF.pdb
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\obj\Debug\PizzaOrderAlexF.csprojResolveAssemblyReference.cache
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\obj\Debug\PizzaOrderAlexF.frmPizzaOrder.resources
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\obj\Debug\PizzaOrderAlexF.Properties.Resources.resources
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\obj\Debug\PizzaOrderAlexF.csproj.GenerateResource.Cache
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\obj\Debug\PizzaOrderAlexF.exe
+N:\a\Sem2-Winter2019\ICS3U Programming\Forgeron, Alex\Assignments\PizzaOrderAlexF\PizzaOrderAlexF\obj\Debug\PizzaOrderAlexF.pdb
