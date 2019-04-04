@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Alex Forgeron
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Assignment #5
+ * This program calculates pizza cost
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,19 +29,18 @@ namespace PizzaOrderAlexF
         {
             {
                 //Local Variables
-                double pizzaCost, toppingsCost, friesCost, sodaCost, subtotal, hst, total;
-                const double HST = 0.13;
+                double pizzaCost, toppingsCost, subtotal, hst, total;
 
-                //Pizza Cost
+                //How much the Pizza Cost
                 if (nudSize.Value == 1)
                 {
-                    pizzaCost = 7.99;
+                    pizzaCost = 6.99;
                 }
                 else
                 {
                     if (nudSize.Value == 2)
                     {
-                        pizzaCost = 9.99;
+                        pizzaCost = 10.99;
                     }
                     else
                     {
@@ -41,7 +48,7 @@ namespace PizzaOrderAlexF
                     }
                 }
 
-                //Toppings Cost
+                //How much the Toppings Cost
                 if (nudToppings.Value == 1)
                 {
                     toppingsCost = 0.75;
@@ -66,11 +73,21 @@ namespace PizzaOrderAlexF
                             }
                             else
                             {
-                                toppingsCost = 3.35;
+                                toppingsCost = 3.25;
                             }
                         }
                     }
                 }
+                // Calculations for cost
+                subtotal = pizzaCost + toppingsCost;
+                hst = subtotal * 0.13;
+                total = subtotal + hst;
+
+                //displaying costs on labels 
+                lblSubtotal.Text = String.Format("Subtotal = ${0:0.00}", subtotal);
+                lblHST.Text = string.Format("hst = ${0:0.00}", hst);
+                lblTotal.Text = String.Format("total = ${0:0.00}", total);
+
             }
         }
     }

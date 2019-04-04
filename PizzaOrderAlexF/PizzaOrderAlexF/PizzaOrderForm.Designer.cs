@@ -28,96 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblSizeQuestion = new System.Windows.Forms.Label();
+            this.lblMedium = new System.Windows.Forms.Label();
+            this.lblToppings1 = new System.Windows.Forms.Label();
+            this.lblToppings5 = new System.Windows.Forms.Label();
+            this.lblToppings4 = new System.Windows.Forms.Label();
+            this.lblToppingsQuestion = new System.Windows.Forms.Label();
+            this.lblXL = new System.Windows.Forms.Label();
+            this.lblLarge = new System.Windows.Forms.Label();
             this.nudSize = new System.Windows.Forms.NumericUpDown();
             this.nudToppings = new System.Windows.Forms.NumericUpDown();
             this.btnCalculate = new System.Windows.Forms.Button();
+            this.lblToppings2 = new System.Windows.Forms.Label();
+            this.lblToppings3 = new System.Windows.Forms.Label();
+            this.lblSubtotal = new System.Windows.Forms.Label();
+            this.lblHST = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudToppings)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblSizeQuestion
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblSizeQuestion.AutoSize = true;
+            this.lblSizeQuestion.Location = new System.Drawing.Point(104, 96);
+            this.lblSizeQuestion.Name = "lblSizeQuestion";
+            this.lblSizeQuestion.Size = new System.Drawing.Size(157, 13);
+            this.lblSizeQuestion.TabIndex = 0;
+            this.lblSizeQuestion.Text = "What size pizza would you like?";
             // 
-            // label2
+            // lblMedium
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(61, 66);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblMedium.AutoSize = true;
+            this.lblMedium.Location = new System.Drawing.Point(113, 133);
+            this.lblMedium.Name = "lblMedium";
+            this.lblMedium.Size = new System.Drawing.Size(98, 13);
+            this.lblMedium.TabIndex = 1;
+            this.lblMedium.Text = "Medium = 1 ($6.99)";
             // 
-            // label3
+            // lblToppings1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(224, 305);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.lblToppings1.AutoSize = true;
+            this.lblToppings1.Location = new System.Drawing.Point(113, 248);
+            this.lblToppings1.Name = "lblToppings1";
+            this.lblToppings1.Size = new System.Drawing.Size(100, 13);
+            this.lblToppings1.TabIndex = 3;
+            this.lblToppings1.Text = "1 Topping = ($0.75)";
             // 
-            // label4
+            // lblToppings5
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(61, 215);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "label4";
+            this.lblToppings5.AutoSize = true;
+            this.lblToppings5.Location = new System.Drawing.Point(113, 378);
+            this.lblToppings5.Name = "lblToppings5";
+            this.lblToppings5.Size = new System.Drawing.Size(105, 13);
+            this.lblToppings5.TabIndex = 2;
+            this.lblToppings5.Text = "5 Toppings = ($3.25)";
             // 
-            // label5
+            // lblToppings4
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(174, 342);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
+            this.lblToppings4.AutoSize = true;
+            this.lblToppings4.Location = new System.Drawing.Point(113, 347);
+            this.lblToppings4.Name = "lblToppings4";
+            this.lblToppings4.Size = new System.Drawing.Size(105, 13);
+            this.lblToppings4.TabIndex = 5;
+            this.lblToppings4.Text = "4 Toppings = ($2.75)";
             // 
-            // label6
+            // lblToppingsQuestion
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(61, 183);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "label6";
+            this.lblToppingsQuestion.AutoSize = true;
+            this.lblToppingsQuestion.Location = new System.Drawing.Point(104, 218);
+            this.lblToppingsQuestion.Name = "lblToppingsQuestion";
+            this.lblToppingsQuestion.Size = new System.Drawing.Size(176, 13);
+            this.lblToppingsQuestion.TabIndex = 4;
+            this.lblToppingsQuestion.Text = "How many toppings would you like?";
             // 
-            // label7
+            // lblXL
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(61, 137);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "label7";
+            this.lblXL.AutoSize = true;
+            this.lblXL.Location = new System.Drawing.Point(113, 184);
+            this.lblXL.Name = "lblXL";
+            this.lblXL.Size = new System.Drawing.Size(121, 13);
+            this.lblXL.TabIndex = 7;
+            this.lblXL.Text = "Extra Large = 3 ($12.99)";
             // 
-            // label8
+            // lblLarge
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(62, 105);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "label8";
+            this.lblLarge.AutoSize = true;
+            this.lblLarge.Location = new System.Drawing.Point(113, 159);
+            this.lblLarge.Name = "lblLarge";
+            this.lblLarge.Size = new System.Drawing.Size(94, 13);
+            this.lblLarge.TabIndex = 6;
+            this.lblLarge.Text = "Large = 2 ($10.99)";
             // 
             // nudSize
             // 
-            this.nudSize.Location = new System.Drawing.Point(390, 137);
+            this.nudSize.Location = new System.Drawing.Point(342, 96);
             this.nudSize.Maximum = new decimal(new int[] {
             3,
             0,
@@ -139,9 +144,14 @@
             // 
             // nudToppings
             // 
-            this.nudToppings.Location = new System.Drawing.Point(390, 259);
+            this.nudToppings.Location = new System.Drawing.Point(342, 218);
             this.nudToppings.Maximum = new decimal(new int[] {
-            4,
+            5,
+            0,
+            0,
+            0});
+            this.nudToppings.Minimum = new decimal(new int[] {
+            1,
             0,
             0,
             0});
@@ -156,7 +166,7 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(416, 342);
+            this.btnCalculate.Location = new System.Drawing.Point(342, 271);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 11;
@@ -164,22 +174,72 @@
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
+            // lblToppings2
+            // 
+            this.lblToppings2.AutoSize = true;
+            this.lblToppings2.Location = new System.Drawing.Point(113, 281);
+            this.lblToppings2.Name = "lblToppings2";
+            this.lblToppings2.Size = new System.Drawing.Size(105, 13);
+            this.lblToppings2.TabIndex = 13;
+            this.lblToppings2.Text = "2 Toppings = ($1.35)";
+            // 
+            // lblToppings3
+            // 
+            this.lblToppings3.AutoSize = true;
+            this.lblToppings3.Location = new System.Drawing.Point(113, 315);
+            this.lblToppings3.Name = "lblToppings3";
+            this.lblToppings3.Size = new System.Drawing.Size(105, 13);
+            this.lblToppings3.TabIndex = 12;
+            this.lblToppings3.Text = "3 Toppings = ($2.15)";
+            // 
+            // lblSubtotal
+            // 
+            this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Location = new System.Drawing.Point(339, 315);
+            this.lblSubtotal.Name = "lblSubtotal";
+            this.lblSubtotal.Size = new System.Drawing.Size(58, 13);
+            this.lblSubtotal.TabIndex = 16;
+            this.lblSubtotal.Text = "Subtotal = ";
+            // 
+            // lblHST
+            // 
+            this.lblHST.AutoSize = true;
+            this.lblHST.Location = new System.Drawing.Point(339, 347);
+            this.lblHST.Name = "lblHST";
+            this.lblHST.Size = new System.Drawing.Size(38, 13);
+            this.lblHST.TabIndex = 15;
+            this.lblHST.Text = "HST =";
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(339, 378);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(40, 13);
+            this.lblTotal.TabIndex = 14;
+            this.lblTotal.Text = "Total =";
+            // 
             // frmPizzaOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 444);
+            this.Controls.Add(this.lblSubtotal);
+            this.Controls.Add(this.lblHST);
+            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.lblToppings2);
+            this.Controls.Add(this.lblToppings3);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.nudToppings);
             this.Controls.Add(this.nudSize);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblXL);
+            this.Controls.Add(this.lblLarge);
+            this.Controls.Add(this.lblToppings4);
+            this.Controls.Add(this.lblToppingsQuestion);
+            this.Controls.Add(this.lblToppings1);
+            this.Controls.Add(this.lblToppings5);
+            this.Controls.Add(this.lblMedium);
+            this.Controls.Add(this.lblSizeQuestion);
             this.Name = "frmPizzaOrder";
             this.Text = "Pizza Order Alexander Forgeron";
             ((System.ComponentModel.ISupportInitialize)(this.nudSize)).EndInit();
@@ -191,17 +251,22 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblSizeQuestion;
+        private System.Windows.Forms.Label lblMedium;
+        private System.Windows.Forms.Label lblToppings1;
+        private System.Windows.Forms.Label lblToppings5;
+        private System.Windows.Forms.Label lblToppings4;
+        private System.Windows.Forms.Label lblToppingsQuestion;
+        private System.Windows.Forms.Label lblXL;
+        private System.Windows.Forms.Label lblLarge;
         private System.Windows.Forms.NumericUpDown nudSize;
         private System.Windows.Forms.NumericUpDown nudToppings;
         private System.Windows.Forms.Button btnCalculate;
+        private System.Windows.Forms.Label lblToppings2;
+        private System.Windows.Forms.Label lblToppings3;
+        private System.Windows.Forms.Label lblSubtotal;
+        private System.Windows.Forms.Label lblHST;
+        private System.Windows.Forms.Label lblTotal;
     }
 }
 
